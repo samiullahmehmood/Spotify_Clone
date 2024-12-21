@@ -1,0 +1,245 @@
+body{
+    padding: 0.5rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    
+}
+.side_bar{
+    background-color: black;
+    width: 340px;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    position: sticky;
+}
+.main_content{
+    background-color: #121212;
+    flex: 1;
+    overflow: auto;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-bottom: 4.5rem;
+}
+.music_player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+ .nav{
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    border-radius: 1rem;
+    padding: 0.8rem 0.75rem;
+}
+.nav_option{
+    color: white;
+    margin-left: 1rem;
+    line-height: 35px;
+    opacity: 0.7;
+}
+.nav_option:hover{
+    opacity: 1;
+}
+.nav_option a:hover{
+    color: white;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.nav i{
+    font-size: 1.25rem;
+}
+.library{
+    background-color: #121212;
+    border-radius: 0.5rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.8rem 0.75rem;
+}
+.option{
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+}
+.lib_option{
+    opacity: 0.7;
+    color: white;
+}
+.lib_option a{
+    color: white;
+}
+.lib_option:hover{
+    opacity: 1;
+}
+.icons{
+    font-size: 1.25rem;
+
+}
+.icons i{
+    padding-right: 1rem;
+
+}
+.box{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 1rem 1.25rem;
+}
+.boxp1{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.boxp2{
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+.badge{
+    height: 2rem;
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.box_2{
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 1rem;
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 1rem 1.25rem;
+}
+.sticky_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    
+    padding-top: 0px;
+    width: 100%;
+    height: 50px;
+}
+.stick_nav_icons i{
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+.badge_nav{
+    border: none;
+    margin: 0.5rem;
+    border-radius: 2rem;
+}
+.dark{
+    background-color: #000;
+    color: #fff;
+}
+@media(max-width: 1000px){
+    .hide{
+         display: none;
+    }
+}
+.card{
+    background-color: #232323;
+    width: 170px;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.card-img{
+    width: 100%;
+    border-radius: 0.5rem;
+    
+}
+.card-title{
+    font-weight: 700;
+}
+.card-info{
+    opacity: 0.8;
+    font-size: 0.85rem;
+}
+.album{
+    width: 25%;
+    display: flex;
+}
+.control{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+.player{
+    width: 50%;
+    
+}
+.music-img{
+    height: 60px;
+}
+.para{
+   padding-bottom: 20px;
+}
+.music-p2{
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+.music-icon{
+    margin: 1rem 0.5rem 1rem auto;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    opacity: 0.7;
+}
+.music-icon:hover{
+    opacity: 1;
+}
+.player_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* opacity: 0.7; */
+}
+
+.icon-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+     margin-right: 1.75rem;
+     opacity: 0.7;
+}
+.icon:hover{
+    opacity: 1;
+}
+.controller{
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.controller:hover{
+    opacity: 1;
+}
+.progress-bar{
+    width: 70%;
+}
